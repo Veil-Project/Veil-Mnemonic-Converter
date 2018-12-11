@@ -1288,6 +1288,20 @@
             },
         },
         {
+            name: "Veil",
+            onSelect: function() {
+                network = bitcoin.networks.veil;
+                DOM.bip44coin.val(193);
+            },
+        },
+        {
+            name: "Veil Testnet",
+            onSelect: function() {
+                network = bitcoin.networks.veiltestnet;
+                DOM.bip44coin.val(194);
+            },
+        },        
+        {
             name: "Litecoincash",
             onSelect: function() {
                 network = bitcoin.networks.litecoincash;
